@@ -180,14 +180,14 @@ ELSE -> play **Be3**`,
     id: 'jerome-gambit',
     name: 'JEROME GAMBIT',
     description: 'Opening Lab — Deflection & Rook Grab (ECO C50)',
-    theory: `**Italian Game, classical Jerome Gambit (ECO C50, Alonzo Wheeler Jerome, 1874).** 3...Bc5 (unlike the Topher Gambit's 3...Na5). Core pattern: 4.Bxf7+ Kxf7 5.Nxe5+ Ke8 6.Qh5 threatens 7.Qxf7# (guarded by the e5 knight).
+    theory: `**Italian Game (ECO C50) — Jerome Gambit rook grab.** Same 3...Na5 setup as the Topher Gambit (Black attacks the bishop and abandons the center), but diverges at move 6. Core pattern: 4.Bxf7+ Kxf7 5.Nxe5+ Ke8 6.Qh5 threatens 7.Qxf7# (guarded by the e5 knight).
 
-**Core Idea:** Black's natural try 6...g6 blocks the h5–f7 diagonal and attacks the queen, but 7.Nxg6! is a deflection sacrifice — 7...hxg6 recaptures but opens the h-file completely, and 8.Qxh8 wins the rook.
+**Core Idea:** Black's natural try 6...g6 blocks the h5–f7 diagonal and attacks the queen, but 7.Nxg6! is a deflection sacrifice — 7...hxg6 recaptures but opens the h-file completely, and 8.Qxh8 wins the rook. Compare with the Topher Gambit, which reaches the same position after 5...Ke8 but finishes 6.Qf3 d6 7.Qf7# — immediate mate instead of this material-grabbing line.
 
 **Classification:** Tactical theme: deflection / king extraction. Attack pattern: queen infiltration via the open h-file. Conversion: material win (the exchange), not immediate mate. Key concepts: f7 weakness, diagonal control, a pawn-lever defense (g6) backfiring, deflection sacrifice, open-file exploitation.
 
 **CHESSai Metadata:** Category: Opening Lab. Pattern Type: Opening Sacrifice. Difficulty: Intermediate. Prerequisites: Italian Game fundamentals, tactical calculation.`,
-    moves: ['e4', 'e5', 'Nf3', 'Nc6', 'Bc4', 'Bc5', 'Bxf7+', 'Kxf7', 'Nxe5+', 'Ke8', 'Qh5', 'g6', 'Nxg6', 'hxg6', 'Qxh8'],
+    moves: ['e4', 'e5', 'Nf3', 'Nc6', 'Bc4', 'Na5', 'Bxf7+', 'Kxf7', 'Nxe5+', 'Ke8', 'Qh5', 'g6', 'Nxg6', 'hxg6', 'Qxh8'],
     attempts: 0,
     perfectSessions: 0
   },
