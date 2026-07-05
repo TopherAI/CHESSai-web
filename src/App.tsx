@@ -32,7 +32,7 @@ import {
 import { auth, db, logout, handleFirestoreError, OperationType } from './firebase';
 import type { User } from 'firebase/auth';
 import { doc, setDoc, collection, onSnapshot } from 'firebase/firestore';
-import { generateCoverImage, getAICoachTip, analyzePgnAndExpandRepertoire } from './gemini';
+import { getAICoachTip, analyzePgnAndExpandRepertoire } from './gemini';
 import { useStockfish } from './useStockfish';
 import { getSrsState, recordDrillResult, isDue } from './utils/srs';
 import { repertoire, type RepertoireLine } from './data/repertoire';
