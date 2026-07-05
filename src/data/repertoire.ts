@@ -150,6 +150,17 @@ ELSE -> play **Be3**`,
     attempts: 25,
     perfectSessions: 25
   },
+  {
+    id: 'na5-punish',
+    name: 'NA5 PUNISH',
+    description: 'Real game — won by checkmate',
+    theory: `**Real game:** TopherBettis vs arexniba84, Chess.com daily, 2026-07-02 — won by checkmate (chess.com/game/daily/994047672).
+
+**Core Idea:** 3...Na5 attacks the bishop but ignores development and the center. 4.Bxf7+! sacs the bishop to drag the king out — 4...Kxf7 5.Nxe5+ forks the king and wins the e5 pawn with check. If Black plays passively instead of blocking with ...Nf6, 6.Qf3 (threatening Qxf7#/Qf7#) followed by 7.Qf7# delivers mate.`,
+    moves: ['e4', 'e5', 'Nf3', 'Nc6', 'Bc4', 'Na5', 'Bxf7+', 'Kxf7', 'Nxe5+', 'Ke8', 'Qf3', 'd6', 'Qf7#'],
+    attempts: 0,
+    perfectSessions: 0
+  },
 
   {
     "id": "payload-ch-1",
